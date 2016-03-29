@@ -25,7 +25,7 @@ Problems are motivated by the ones shared at:
 
 ## Table of Contents
 
-- [Numbers](#Numbers)
+- [Numbers](#numbers)
 - [Classic Algorithms](#Classic)
 - [Graph](#Graph)
 - [Data Structures](#Data)
