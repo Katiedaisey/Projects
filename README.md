@@ -26,18 +26,18 @@ Problems are motivated by the ones shared at:
 ## Table of Contents
 
 - [Numbers](#numbers)
-- [Classic Algorithms](#Classic)
-- [Graph](#Graph)
-- [Data Structures](#Data)
-- [Text](#Text)
-- [Networking](#Networking)
-- [Classes](#Classes)
-- [Threading](#Threading)
-- [Web](#Web)
-- [Files](#Files)
-- [Databases](#Databases)
-- [Graphics and Multimedia](#Graphics)
-- [Security](#Security)
+- [Classic Algorithms](#classic)
+- [Graph](#graph)
+- [Data Structures](#data)
+- [Text](#text)
+- [Networking](#networking)
+- [Classes](#classes)
+- [Threading](#threading)
+- [Web](#web)
+- [Files](#files)
+- [Databases](#databases)
+- [Graphics and Multimedia](#graphics~and~multimedia)
+- [Security](#security)
 
 
 
@@ -88,7 +88,7 @@ Problems are motivated by the ones shared at:
 
 **Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
 
-[Classic]: Classic Algorithms
+## Classic Algorithms
 -----------------
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
@@ -100,7 +100,7 @@ Problems are motivated by the ones shared at:
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
 
-[Graph]: Graph
+## Graph
 --------
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
@@ -115,13 +115,13 @@ Problems are motivated by the ones shared at:
 subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
 
 
-[Data]: Data Structures
+## Data Structures
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 
-[Text]: Text
+## Text
 ---------
 
 [Fizz Buzz](/Solutions/fizzbizz.py) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -149,7 +149,7 @@ subgraph that is a tree, contains all the vertices, and the sum of its weights i
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
 
-[Networking]: Networking
+## Networking
 ---------
 
 **FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
@@ -167,7 +167,7 @@ subgraph that is a tree, contains all the vertices, and the sum of its weights i
 **Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
 
 
-[Classes]: Classes
+## Classes
 ---------
 
 **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
@@ -192,7 +192,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
 
-[Threading]: Threading
+## Threading
 ---------
 
 **Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
@@ -200,7 +200,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
 
-[Web]: Web
+## Web
 ---------
 
 **Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
@@ -222,7 +222,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
 
-[Files]: Files
+## Files
 ---------
 
 **Quiz Maker** - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
@@ -238,7 +238,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **Code Snippet Manager** - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. *Optional: For extra practice try adding syntax highlighting based on the language.*
 
 
-[Databases]: Databases
+## Databases
 ---------
 
 **SQL Query Analyzer** - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
@@ -256,7 +256,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **Travel Planner System** - Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
 
 
-[Graphics]: Graphics and Multimedia
+## Graphics and Multimedia
 ---------
 
 **Slide Show** - Make an application that shows various pictures in a slide show format. *Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.*
