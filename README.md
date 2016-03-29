@@ -26,9 +26,9 @@ Problems are motivated by the ones shared at:
 ## Table of Contents
 - [Completed][Completed]
 - [Numbers][Numbers]
-- [Classic Algorithms][Classic Algorithms]
+- [Classic Algorithms]["Classic Algorithms"]
 - [Graph][Graph]
-- [Data Structures][Data Structures]
+- [Data Structures]["Data Structures"]
 - [Text][Text]
 - [Networking][Networking]
 - [Classes][Classes]
@@ -36,21 +36,12 @@ Problems are motivated by the ones shared at:
 - [Web][Web]
 - [Files][Files]
 - [Databases][Databases]
-- [Graphics and Multimedia][Graphics and Multimedia]
+- [Graphics and Multimedia]["Graphics and Multimedia"]
 - [Security][Security]
 
 
-[Completed]:Completed
----------
 
-[Find Cost of Tile to Cover W x H Floor](/Solutions/tile_cost.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
-
-[Change Return Program](/Solutions/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
-
-[Tax Calculator](/Solutions/tax_calculator.py) - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
-
-
-[Numbers]:Numbers
+[Numbers]: Numbers
 ---------
 
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
@@ -63,7 +54,11 @@ Problems are motivated by the ones shared at:
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
+[Find Cost of Tile to Cover W x H Floor](/Solutions/tile_cost.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+
 **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+
+[Change Return Program](/Solutions/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
 **Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
@@ -76,6 +71,8 @@ Problems are motivated by the ones shared at:
 **Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
 **Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+
+[Tax Calculator](/Solutions/tax_calculator.py) - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
 **Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
@@ -91,7 +88,7 @@ Problems are motivated by the ones shared at:
 
 **Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
 
-[Classic Algorithms]: Classic Algorithms
+["Classic Algorithms"]: Classic Algorithms
 -----------------
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
@@ -118,7 +115,7 @@ Problems are motivated by the ones shared at:
 subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
 
 
-[Data Structures]: Data Structures
+["Data Structures"]: Data Structures
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
@@ -127,7 +124,7 @@ subgraph that is a tree, contains all the vertices, and the sum of its weights i
 [Text]: Text
 ---------
 
-**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+[Fizz Buzz](/Solutions/fizzbizz.py) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
 
@@ -259,7 +256,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **Travel Planner System** - Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
 
 
-[Graphics and Multimedia]: Graphics and Multimedia
+["Graphics and Multimedia"]: Graphics and Multimedia
 ---------
 
 **Slide Show** - Make an application that shows various pictures in a slide show format. *Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.*
