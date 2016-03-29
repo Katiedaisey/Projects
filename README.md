@@ -26,9 +26,9 @@ Problems are motivated by the ones shared at:
 ## Table of Contents
 
 - [Numbers](#numbers)
-- [Classic Algorithms](#classic)
+- [Classic Algorithms](#classic-algorithms)
 - [Graph](#graph)
-- [Data Structures](#data)
+- [Data Structures](#data-structures)
 - [Text](#text)
 - [Networking](#networking)
 - [Classes](#classes)
@@ -36,7 +36,7 @@ Problems are motivated by the ones shared at:
 - [Web](#web)
 - [Files](#files)
 - [Databases](#databases)
-- [Graphics and Multimedia](#graphics~and~multimedia)
+- [Graphics and Multimedia](#graphics-and-multimedia)
 - [Security](#security)
 
 
@@ -272,7 +272,7 @@ After you've established an employee hierarchy, create a Company class that allo
 **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
 
 
-[Security]: Security
+## Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
