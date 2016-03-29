@@ -24,11 +24,11 @@ Problems are motivated by the ones shared at:
 * [Rosetta Code](http://rosettacode.org/)
 
 ## Table of Contents
-- [Completed][Completed]
+
 - [Numbers][Numbers]
-- [Classic]["Classic Algorithms"]
+- [Classic Algorithms][Classic]
 - [Graph][Graph]
-- [Data]["Data Structures"]
+- [Data Structures][Data]
 - [Text][Text]
 - [Networking][Networking]
 - [Classes][Classes]
@@ -36,7 +36,7 @@ Problems are motivated by the ones shared at:
 - [Web][Web]
 - [Files][Files]
 - [Databases][Databases]
-- [Graphics]["Graphics and Multimedia"]
+- [Graphics and Multimedia][Graphics]
 - [Security][Security]
 
 
