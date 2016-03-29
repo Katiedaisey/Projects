@@ -25,23 +25,23 @@ Problems are motivated by the ones shared at:
 
 ## Table of Contents
 
-- [Numbers][Numbers]
-- [Classic Algorithms][Classic]
-- [Graph][Graph]
-- [Data Structures][Data]
-- [Text][Text]
-- [Networking][Networking]
-- [Classes][Classes]
-- [Threading][Threading]
-- [Web][Web]
-- [Files][Files]
-- [Databases][Databases]
-- [Graphics and Multimedia][Graphics]
-- [Security][Security]
+- [Numbers](#Numbers)
+- [Classic Algorithms](#Classic)
+- [Graph](#Graph)
+- [Data Structures](#Data)
+- [Text](#Text)
+- [Networking](#Networking)
+- [Classes](#Classes)
+- [Threading](#Threading)
+- [Web](#Web)
+- [Files](#Files)
+- [Databases](#Databases)
+- [Graphics and Multimedia](#Graphics)
+- [Security](#Security)
 
 
 
-[Numbers]: Numbers
+## Numbers
 ---------
 
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
