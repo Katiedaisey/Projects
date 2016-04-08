@@ -1,7 +1,7 @@
 Mega Project List
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+A list of 92 practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 
 To get started, simply fork this repo.
 
@@ -48,15 +48,15 @@ Problems are motivated by the ones shared at:
 
 **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+[Fibonacci Sequence](/Solutions/fibonacci_sequence.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[Prime Factorization](/Solutions/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+[Next Prime Number](Solutions/next_prime_number) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 [Find Cost of Tile to Cover W x H Floor](/Solutions/tile_cost.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-**Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+[Mortgage Calculator](Solutions/mortgage_calculator.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
 [Change Return Program](/Solutions/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
@@ -91,7 +91,7 @@ Problems are motivated by the ones shared at:
 ## Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+[Collatz Conjecture](/Solutions/collatz_conjecture) - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
