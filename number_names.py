@@ -59,7 +59,7 @@ def huns(num):
 			tens = string[-2]
 			if tens != '0':
 				if string[-1] != '0':
-					ans = ans + dict[(tens + 's')] + '-'
+					ans = ans + dict[(tens + 's')] + ' '
 				else:
 					ans = ans + dict[(tens + 's')]	
 			ones = string[-1]
@@ -80,7 +80,9 @@ while len(string) > 3:
 	last = huns(last)
 	if ans == 'begin':
 		ans = last
-	if count == 1:
+	else:
+		ans = last + ans
+	if count == 1 and last != ' ':
 		ans = ' thousand ' + ans
 	if count == 2:
 		ans = ' million ' + ans
@@ -90,7 +92,10 @@ while len(string) > 3:
 
 if len(string) < 4:
 	num = int(string)
-	ans = huns(num) + ans
+	if ans == 'begin':
+		ans = huns(num)
+	else:
+		ans = huns(num) + ans
 	
 	
 print ans
